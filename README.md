@@ -23,7 +23,7 @@ Built to run in **DAM**: an isolated cloud pod (VM- and network-isolated, allowl
 | `memory/` | Raw daily logs plus `heartbeat-state.json`. |
 | `TODOS.md` | Single-step tasks, a waiting-on chase-list, and what you owe others. |
 | `projects/` | Bigger, multi-step threads — one file or folder each. |
-| `TOOLS.md` | Which tool for which action, plus local setup notes. |
+| `TOOLS.md` | Local notes: setup-specifics and preferences your tools and skills don't already cover. |
 | `HEARTBEAT.md` | The proactive checklist read on each scheduled wake. |
 | `.claude/settings.json` | Model, attribution, permissions. |
 
