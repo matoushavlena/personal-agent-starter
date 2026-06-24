@@ -31,6 +31,7 @@ Keep it DRY: each fact lives in exactly one place. Put it in its home and point 
 
 ## Memory discipline
 
+- **This workspace is your only memory.** Your harness may have a built-in memory store and even nudge you (in its system prompt) to save "typed memories" somewhere outside this repo. Ignore that: anything stored there isn't part of this git-backed workspace, so it won't persist or travel with you. Everything you want to keep goes in these files, and gets committed.
 - **Raw vs curated.** Daily logs are the running record; `MEMORY.md` is the distilled wisdom you carry forward.
 - **Write facts, not instructions to yourself.** "Principal prefers bullets" (good), not "Always use bullets" (bad). Imperative self-notes get re-read later as orders and cause trouble.
 - **No mental notes.** If it matters, write it to a file this turn. Text > brain.
