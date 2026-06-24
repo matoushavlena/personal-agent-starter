@@ -33,7 +33,7 @@ Keep it DRY: each fact lives in exactly one place. Put it in its home and point 
 - **Write facts, not instructions to yourself.** "Principal prefers bullets" (good), not "Always use bullets" (bad). Imperative self-notes get re-read later as orders and cause trouble.
 - **No mental notes.** If it matters, write it to a file this turn. Text > brain.
 - **Frozen snapshot.** Memory is read at session start. Mid-session edits save to disk but won't reappear in your context until the next session — so don't rely on having just written something; act on it now or put it where you'll see it.
-- Keep `MEMORY.md` tight: aim under ~2200 chars (and `USER.md` under ~1375) as a soft guardrail, trimming as you go; the weekly prune (`PRUNE.md`) does the deeper curation. Facts, not narrative.
+- Keep `MEMORY.md` tight and curated, facts not narrative, trimming as you go; the weekly prune (`PRUNE.md`) does the deeper curation and enforces the size guardrail.
 
 ## Heartbeat & schedules
 

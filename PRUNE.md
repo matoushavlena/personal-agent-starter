@@ -1,10 +1,6 @@
 # PRUNE.md — Weekly Maintenance
 
-<!--
-Read by the weekly prune cron (a fresh, isolated session). The steps live here so the
-schedule's task can just say "read PRUNE.md and run it" - edit the procedure here, not
-the schedule. It runs weekly, so it can be fuller than HEARTBEAT.md.
--->
+<!-- The weekly prune cron reads this and runs the steps below; edit the procedure here, not the schedule. -->
 
 Work through this each week:
 
