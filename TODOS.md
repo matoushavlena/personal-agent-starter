@@ -14,6 +14,6 @@ _What other people owe the principal. This is how you push them to deliver: when
 
 ## ✅ Recently done
 
-<!-- Move finished items here, newest first. The weekly prune clears anything done more than ~2 weeks ago. -->
+<!-- Move finished items here, newest first. The weekly prune (PRUNE.md) clears anything done more than ~2 weeks ago. -->
 
 <!-- [x] Task — done YYYY-MM-DD -->

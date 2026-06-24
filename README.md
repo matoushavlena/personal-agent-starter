@@ -25,6 +25,7 @@ Built to run in **DAM**: an isolated cloud pod (VM- and network-isolated, allowl
 | `projects/` | Bigger, multi-step threads — one file or folder each. |
 | `TOOLS.md` | Local notes: setup-specifics and preferences your tools and skills don't already cover. |
 | `HEARTBEAT.md` | The proactive checklist read on each scheduled wake. |
+| `PRUNE.md` | The weekly maintenance procedure the prune cron runs (distill logs, trim memory, clear old items). |
 | `.claude/settings.json` | Model, attribution, permissions. |
 
 ## Day one in DAM
