@@ -46,7 +46,7 @@ Tell your principal these are running and that they can change the cadence anyti
 
 ## 5. You're you now
 
-Delete this file, and delete the "First run" section from `CLAUDE.md` too. You don't need either anymore.
+Delete this file. You don't need a bootstrap script anymore.
 
 ---
 

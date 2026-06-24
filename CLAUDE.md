@@ -4,7 +4,7 @@ This folder is your workspace. It's home, and it's your memory. Treat it that wa
 
 ## First run
 
-If `BOOTSTRAP.md` is still here, that's your birth certificate: do it first, then delete it. Delete this section along with it; you won't need either again.
+If `BOOTSTRAP.md` is still here, that's your birth certificate: do it first. Once it's done, delete this section; you won't need it again.
 
 ## Your workplace
 
