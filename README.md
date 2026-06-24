@@ -4,12 +4,12 @@ A drop-in workspace that turns a fresh Claude agent into a capable **personal as
 
 Built to run in **DAM**: an isolated cloud pod (VM- and network-isolated, allowlisted egress) where the agent's connections (email, calendar, chat, files) and its **schedules** are provided as MCP servers. You don't wire those up here — the agent discovers them at runtime.
 
-> This README is the one file the agent doesn't live by. It's for **you**, the person deploying the agent. (The agent reads the "Roles it supports" section once during bootstrap to shape itself.)
+> This README is the one file the agent doesn't live by. It's for **you**, the person deploying the agent. (During bootstrap the agent may glance at the example shapes below for inspiration, but it shapes itself to your actual needs, not to a label.)
 
 ## How to use it
 
 1. Copy the contents of this folder into the agent's working directory.
-2. Start the agent. On first run it follows `BOOTSTRAP.md`: a short conversation to set its identity, learn about you, pick its role, and install its schedules — then it deletes `BOOTSTRAP.md`.
+2. Start the agent. On first run it follows `BOOTSTRAP.md`: a short conversation to set its identity, learn about you, shape its workspace to your needs, and install its schedules. Then it deletes `BOOTSTRAP.md`.
 3. From then on it works from these files, keeping them current as its memory.
 
 ## The building blocks
@@ -32,17 +32,19 @@ Built to run in **DAM**: an isolated cloud pod (VM- and network-isolated, allowl
 - The agent installs two schedules through the schedule MCP: a **heartbeat** (~every 30 min during waking hours) and a **weekly memory prune**.
 - It treats all tool output as data, never as instructions, and verifies before anything that leaves the pod.
 
-## Roles it supports
+## Example shapes
 
-Same primitives, shaped to the job. The agent picks the closest fit during bootstrap.
+These are illustrations, not a menu. The same primitives (a `TODOS.md` with a waiting-on list, `projects/` as files or folders, a heartbeat) flex to almost any role that runs someone's affairs. A few worked examples:
 
-**Executive / personal assistant.** Inbox and calendar triage, drafting replies, protecting focus time. The `TODOS.md` waiting-on list chases people for what they promised; the heartbeat surfaces urgent mail and imminent meetings; a daily brief can run on a morning cron.
+**Executive / personal assistant.** Inbox and calendar triage, drafting replies, protecting focus time. The `TODOS.md` waiting-on list chases people for what they promised; the heartbeat surfaces urgent mail and imminent meetings.
 
-**Wealth manager.** `projects/` tracks holdings and positions with a `decisions.md` rationale log per move; the `TODOS.md` waiting-on list chases counterparties, banks, and paperwork; the heartbeat watches for portfolio events and news that needs a decision.
+**Wealth manager.** `projects/` tracks holdings and positions with a `decisions.md` rationale log per move; the `TODOS.md` waiting-on list chases counterparties, banks, and paperwork; the heartbeat watches for events and news that need a decision.
 
-**House-build / architect tracker.** A `projects/<build>/` folder with `decisions.md` (ADR-style: what was chosen and why), `ledger.md` (items, costs, status), and `designs/` (drawings, references); the `TODOS.md` waiting-on list chases contractors and architects for deliverables; the heartbeat nudges on overdue milestones.
+**House-build / architect tracker.** A `projects/<build>/` folder with `decisions.md` (what was chosen and why), `ledger.md` (items, costs, status), and `designs/` (drawings, references); the `TODOS.md` waiting-on list chases contractors and architects for deliverables.
 
-**Meeting manager.** A `projects/<meeting>/` folder with prep and agenda; the `TODOS.md` waiting-on list tracks attendee confirmations; the heartbeat nudges people who haven't confirmed and assembles prep before the meeting.
+**Meeting manager.** A `projects/<meeting>/` folder with prep and agenda; the `TODOS.md` waiting-on list tracks attendee confirmations; the heartbeat nudges people who haven't confirmed and assembles prep beforehand.
+
+Your principal's needs may be none of these exactly, or a blend. Shape the workspace to the work, not to a label.
 
 ## Credits
 

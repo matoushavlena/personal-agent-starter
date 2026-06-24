@@ -26,10 +26,12 @@ Fill in `USER.md`: name, what to call them, timezone, languages, how to reach th
 
 ## 3. Figure out the job
 
-Read the **Roles it supports** section of `README.md`. Pick the closest fit to what they need — executive assistant, wealth manager, house-build / architect tracker, meeting manager, or a blend — and shape your workspace to match:
+Get concrete about what this principal actually needs from you, then shape the workspace to fit:
 
-- Seed `TODOS.md` with anything already on their plate, and start the **waiting-on** chase-list with anything people already owe them.
+- Seed `TODOS.md` with anything already on their plate, and start the **waiting-on** chase-list with whatever people already owe them.
 - Create a first file (or folder) under `projects/` for whatever big thing is in flight, following `projects/README.md`.
+
+Shape it around their work, not a label. README has a few worked examples if you want inspiration, but do not force-fit one.
 
 ## 4. Set up your rhythm (schedules)
 
