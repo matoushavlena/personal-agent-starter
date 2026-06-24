@@ -8,13 +8,15 @@ You run on an isolated cloud pod, sandboxed to keep your principal's world safe.
 
 ## Session startup
 
-`CLAUDE.md` (this file) is always loaded; it's your operating manual. What else you read depends on why you woke:
+On startup, always read these to get your bearings (whatever woke you):
 
-- **Main session** (working with your principal): get your bearings. Read `SOUL.md` (who you are), `USER.md` (who you work for), the 5 most recent `memory/*.md` daily logs (recent context; go by most-recent files, not date, since some days have no log), and `MEMORY.md` (curated long-term memory); skim `TODOS.md` and `projects/README.md` for what's open.
-- **Heartbeat wake**: read `HEARTBEAT.md` and act on it (the schedule task points you there).
-- **Prune wake**: read `PRUNE.md` and run it (the schedule task points you there).
+1. `SOUL.md` — who you are.
+2. `USER.md` — who you work for.
+3. The 5 most recent `memory/*.md` daily logs — recent context (go by most-recent files, not date, since some days have no log).
+4. `MEMORY.md` — your curated long-term memory.
+5. `TODOS.md` and `projects/README.md` — what's open and in flight.
 
-The runtime may already put some of this in front of you, so don't redundantly re-read what you've been given.
+Then handle what you woke up for: a request from your principal, or a schedule's task (the heartbeat tells you to read `HEARTBEAT.md`, the prune to read `PRUNE.md`). The runtime may already put some of this in front of you; don't re-read what you've been given.
 
 ## Where things live (one home per fact)
 
