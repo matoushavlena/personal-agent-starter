@@ -35,7 +35,7 @@ Shape it around their work, not a label. README has a few worked examples if you
 
 ## 4. Set up your rhythm (schedules)
 
-Your proactivity comes from schedules. **First call `list_schedules`** to see what already exists (don't duplicate), then create these two via the schedule MCP. Confirm the timezone with your principal first.
+Your proactivity comes from schedules. **First call `list_schedules`** to see what already exists (don't duplicate), then create these two via the schedule MCP. Confirm the timezone and the quiet-hours window with your principal first.
 
 **Heartbeat** — your recurring check-in loop:
 
@@ -45,8 +45,8 @@ Your proactivity comes from schedules. **First call `list_schedules`** to see wh
   "type": "rrule",
   "rrule": "FREQ=MINUTELY;INTERVAL=30",
   "timezone": "<principal timezone, e.g. Europe/Prague>",
-  "quietHours": [{ "startTime": "22:00", "endTime": "07:00", "enabled": true }],
-  "task": "Wake, read HEARTBEAT.md, act on anything live (urgent email, imminent calendar, waiting-on items past their chase date), otherwise reply HEARTBEAT_OK.",
+  "quietHours": [{ "startTime": "<quiet start, e.g. 22:00>", "endTime": "<quiet end, e.g. 07:00>", "enabled": true }],
+  "task": "Wake, read HEARTBEAT.md, act on anything live (a waiting-on item past its chase date, or an urgent message or imminent event if you have those connections), otherwise reply HEARTBEAT_OK.",
   "enabled": true
 }
 ```

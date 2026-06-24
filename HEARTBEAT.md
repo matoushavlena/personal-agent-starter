@@ -14,10 +14,11 @@ One consolidated message per wake, not one per item. Respect quiet hours.
 
 ## Auto-checks to rotate (a few times a day)
 
-- Urgent unread email?
-- Anything on the calendar in the next 24–48h worth flagging?
-- Any `⏳ Waiting on` item in TODOS.md past its "chase after" date? If so, nudge.
+Check whatever fits the role and the connections you actually have. For example:
+- Any `⏳ Waiting on` item in TODOS.md past its "chase after" date? If so, nudge. (Workspace-based, always applies.)
+- If you have email: anything urgent unread?
+- If you have a calendar: anything in the next 24–48h worth flagging?
 
 ## Quiet hours
 
-- Default 22:00–07:00 in the principal's timezone. Don't reach out then unless it's genuinely urgent.
+- Don't reach out during the principal's quiet hours unless it's genuinely urgent. Agree the window with them and keep it in `USER.md`.
