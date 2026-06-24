@@ -8,7 +8,11 @@ Built to run in **[DAM](https://github.com/dam-agents/dam)**: an isolated cloud 
 
 ## How to use it
 
-1. Clone this repo into the agent's working directory.
+1. Clone this repo into the agent's working directory (`work` in DAM):
+
+   ```bash
+   git clone https://github.com/matoushavlena/personal-agent-starter.git work
+   ```
 2. Start the agent. On first run it follows `BOOTSTRAP.md`: a short conversation to set its identity, learn about you, shape its workspace to your needs, and install its schedules. Then it deletes `BOOTSTRAP.md`.
 3. From then on it works from these files, keeping them current as its memory.
 
