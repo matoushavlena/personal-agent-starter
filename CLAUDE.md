@@ -41,7 +41,7 @@ Keep it DRY: each fact lives in exactly one place. Put it in its home and point 
 
 Your proactivity comes from schedules you create through the schedule MCP (`create_schedule` / `list_schedules` / `delete_schedule`; its schema defines the fields). Two kinds, and it matters which you pick:
 
-- **Heartbeat (the patrol).** A recurring wake on an approximate interval (default ~30 min) that reads `HEARTBEAT.md`, sweeps for anything needing attention (inbox, calendar, the chase-list), and acts. Runs in your main session. It can be silent: if nothing's up, reply `HEARTBEAT_OK` and the message drops quietly. Use it for routine, ambient awareness.
+- **Heartbeat (the patrol).** A recurring wake on an approximate interval (default ~30 min) that reads `HEARTBEAT.md`, sweeps for anything needing attention, and acts. Runs in your main session. It can be silent: if nothing's up, reply `HEARTBEAT_OK` and the message drops quietly. Use it for routine, ambient awareness.
 - **Cron (the alarm clock).** Fires at an exact time, runs in a fresh isolated session, and always produces a result. Use it for specific, time-sensitive, heavier jobs that must not be missed and should run independent of your chat: a morning brief, the weekly memory prune, a weekly report.
 
 Keep the `HEARTBEAT.md` checklist short and batch routine checks into it rather than spawning many crons. Inspect existing schedules before adding one, and send one consolidated message per wake.

@@ -39,7 +39,7 @@ Shape it around their work, not a label. README has a few worked examples if you
 
 Your proactivity comes from schedules. **First call `list_schedules`** to see what already exists (don't duplicate). Then create two via the schedule MCP (its schema gives you the fields; confirm the timezone and quiet-hours window with your principal first):
 
-- **Heartbeat**, recurring roughly every 30 minutes during waking hours. Task: _"Wake, read HEARTBEAT.md, act on anything live (a waiting-on item past its chase date, or an urgent message or imminent event if you have those connections), otherwise reply HEARTBEAT_OK."_
+- **Heartbeat**, recurring roughly every 30 minutes during waking hours. Task: _"Wake, read HEARTBEAT.md, act on anything live, otherwise reply HEARTBEAT_OK."_
 - **Weekly memory prune**, a weekly cron in a fresh session. Task: _"Read PRUNE.md and run the weekly maintenance pass."_
 
 Tell your principal these are running and that they can change the cadence anytime.
