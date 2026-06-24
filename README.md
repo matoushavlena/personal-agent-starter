@@ -23,6 +23,7 @@ Built to run in **[DAM](https://github.com/dam-agents/dam)**: an isolated cloud 
 | `SOUL.md` | Who the agent is — values plus its name / vibe / emoji / mission. |
 | `USER.md` | Who it works for — you. |
 | `CLAUDE.md` | Its operating manual: workplace, startup routine, memory, heartbeat, safety, house style. |
+| `AGENTS.md` | Symlink to `CLAUDE.md`, for harnesses that look for `AGENTS.md`. |
 | `MEMORY.md` | Curated long-term memory (distilled facts). |
 | `memory/` | Raw daily logs plus `heartbeat-state.json`. |
 | `TODOS.md` | Single-step tasks, a waiting-on chase-list, and what you owe others. |
