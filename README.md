@@ -1,8 +1,8 @@
 # Personal Agent Starter
 
-A drop-in workspace that turns a fresh Claude agent into a capable **personal assistant** — an executive assistant by default, but the same building blocks serve a wealth manager, a house-build / architect tracker, or a meeting manager.
+A drop-in workspace that turns a fresh coding harness into a capable **personal assistant**: an executive assistant by default, but the same building blocks serve a wealth manager, a house-build / architect tracker, or a meeting manager.
 
-Built to run in **DAM**: an isolated cloud pod (VM- and network-isolated, allowlisted egress). The agent's capabilities (email, calendar, chat, files, scheduling) are provided by the runtime as tools and skills, so you don't wire them up here.
+Built to run in **[DAM](https://github.com/dam-agents/dam)**: an isolated cloud pod (VM- and network-isolated, allowlisted egress). The agent's capabilities (email, calendar, chat, files, scheduling) are provided by the runtime as tools and skills, so you don't wire them up here.
 
 > This README is the one file the agent doesn't live by. It's for **you**, the person deploying the agent. (During bootstrap the agent may glance at the example shapes below for inspiration, but it shapes itself to your actual needs, not to a label.)
 
@@ -24,7 +24,7 @@ Built to run in **DAM**: an isolated cloud pod (VM- and network-isolated, allowl
 | `TODOS.md` | Single-step tasks, a waiting-on chase-list, and what you owe others. |
 | `projects/` | Bigger, multi-step threads — one file or folder each. |
 | `TOOLS.md` | Local notes: setup-specifics and preferences your tools and skills don't already cover. |
-| `HEARTBEAT.md` | The proactive checklist read on each scheduled wake. |
+| `HEARTBEAT.md` | The proactive checklist the heartbeat reads on each wake. |
 | `PRUNE.md` | The weekly maintenance procedure the prune cron runs (distill logs, trim memory, clear old items). |
 | `.claude/settings.json` | Model, attribution, permissions. |
 
