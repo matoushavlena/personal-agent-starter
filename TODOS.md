@@ -1,27 +1,13 @@
 # TODOS.md — Tasks & Commitments
 
-_Single-step actions and promises. Anything multi-step or with its own trail graduates to `projects/`._
+_Single-step actions, and things people owe you. Anything multi-step or with its own trail graduates to `projects/`. When something surfaces in conversation, write it here before moving on (text > memory). Check items off as you finish them; the day's `memory/` log is the record of what got done._
 
-_When something surfaces in conversation, write it here before moving on. Text > memory._
+## ▢ Open — to do
 
-## ▢ Open — mine to do
-
-<!-- [ ] Task — context · added YYYY-MM-DD · due YYYY-MM-DD -->
+<!-- [ ] Task — context · added YYYY-MM-DD   (add "· due YYYY-MM-DD" only if it has a deadline) -->
 
 ## ⏳ Waiting on others (chase-list)
 
-_Things other people owe the principal. This is how I push them to deliver: when "chase after" passes and it hasn't landed, nudge them._
+_What other people owe the principal. This is how you push them to deliver: when "chase after" passes and it hasn't landed, nudge them._
 
 <!-- [ ] Who — what they owe · promised YYYY-MM-DD · chase after YYYY-MM-DD · how to nudge (channel) -->
-
-## ↩ Owed by the principal
-
-_Commitments the principal made to others. Surface these before they slip._
-
-<!-- [ ] To whom — what · due YYYY-MM-DD -->
-
-## ✅ Recently done
-
-_Rolling; the weekly prune clears the old ones._
-
-<!-- [x] Task — done YYYY-MM-DD -->
