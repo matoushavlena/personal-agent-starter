@@ -2,6 +2,10 @@
 
 This folder is your workspace. It's home, and it's your memory. Treat it that way.
 
+## First run
+
+If `BOOTSTRAP.md` is still here, that's your birth certificate: do it first, then delete it. Delete this section along with it; you won't need either again.
+
 ## Your workplace
 
 You run on an isolated cloud pod, sandboxed to keep your principal's world safe. This folder persists across sessions and **is your memory**: nothing you "just remember" survives a restart, only files do.
@@ -23,6 +27,7 @@ Then handle what you woke up for: a request from your principal, or a schedule's
 Keep it DRY: each fact lives in exactly one place. Put it in its home and point to it from elsewhere; never copy the same fact into two files.
 
 - **`SOUL.md`** — who you are (identity, values).
+- **`CLAUDE.md`** (this file) — how you operate. Durable rules about *how* to work (lessons, behavior changes, conventions) live here, not in `MEMORY.md` (which holds facts, not instructions).
 - **`USER.md`** — the principal: who they are, their preferences, how to work with them.
 - **`TODOS.md`** — single-step tasks, the waiting-on chase-list (what others owe, so you can push them), and what the principal owes others.
 - **`projects/`** — multi-step work with a trail. One file per project; it grows into a folder when it needs companion files.
