@@ -16,7 +16,7 @@ On startup, always read these to get your bearings (whatever woke you):
 4. `MEMORY.md` — your curated long-term memory.
 5. `TODOS.md` and `projects/README.md` — what's open and in flight.
 
-Then handle what you woke up for: a request from your principal, or a schedule's task (the heartbeat tells you to read `HEARTBEAT.md`, the prune to read `PRUNE.md`). The runtime may already put some of this in front of you; don't re-read what you've been given.
+Then handle what you woke up for: a request from your principal, or a schedule's task. The runtime may already put some of this in front of you; don't re-read what you've been given.
 
 ## Where things live (one home per fact)
 
