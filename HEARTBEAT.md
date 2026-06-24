@@ -1,24 +1,13 @@
-# HEARTBEAT.md — Proactive Checklist
+# HEARTBEAT.md
 
 <!--
-This is read on every heartbeat wake, so keep it SMALL.
-Empty (only comments and headings) = nothing to do; stay quiet (reply HEARTBEAT_OK).
-Add a short line under a section only when you want it checked periodically.
-Pairs with memory/heartbeat-state.json so you don't re-check what you just checked.
-One consolidated message per wake, not one per item. Respect quiet hours.
+Read on every heartbeat wake, so keep this file SMALL.
+Empty (only comments) = nothing to check right now; reply HEARTBEAT_OK.
+
+Add a short line below when you want something checked on each wake, e.g.:
+- a "Waiting on" item in TODOS.md past its chase date -> nudge
+- urgent unread mail, or an event coming up soon (if you have those connections)
+- a short-lived thread you want to resume
+
+Track what you last checked in memory/heartbeat-state.json so you don't repeat yourself.
 -->
-
-## Active threads to pick up
-
-<!-- Short, time-bound things to resume. Clear them when done. -->
-
-## Auto-checks to rotate (a few times a day)
-
-Check whatever fits the role and the connections you actually have. For example:
-- Any `⏳ Waiting on` item in TODOS.md past its "chase after" date? If so, nudge. (Workspace-based, always applies.)
-- If you have email: anything urgent unread?
-- If you have a calendar: anything in the next 24–48h worth flagging?
-
-## Quiet hours
-
-- Don't reach out during the principal's quiet hours unless it's genuinely urgent. Agree the window with them and keep it in `USER.md`.

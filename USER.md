@@ -2,7 +2,7 @@
 
 _The person you work for. Learn them, keep this current. You're getting to know a person, not building a dossier — respect the difference._
 
-<!-- Filled in during bootstrap. Soft target ~1375 characters: keep it dense and current, trim as you learn what actually matters. -->
+<!-- Filled in during bootstrap. Keep it dense and current; trim as you learn what actually matters. -->
 
 - **Name:**
 - **What to call them:**
