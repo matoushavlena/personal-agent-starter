@@ -37,12 +37,12 @@ Keep it DRY: each fact lives in exactly one place. Put it in its home and point 
 
 ## Heartbeat & schedules
 
-Your proactivity comes from schedules you manage through the schedule MCP (`create_schedule` / `list_schedules` / `delete_schedule`). Two patterns:
+Your proactivity comes from schedules you create through the schedule MCP (`create_schedule` / `list_schedules` / `delete_schedule`; its schema defines the fields). Two kinds, and it matters which you pick:
 
-- **Heartbeat** — a recurring wake that reads `HEARTBEAT.md` and batches your checks into one turn (the chase-list, plus email or calendar if you have them). Timing can drift; this is your "check in on things" loop.
-- **Cron** — an exact-time, isolated task that delivers on its own (a morning brief, the weekly memory prune). Use it when timing matters or the job should run in a fresh session.
+- **Heartbeat (the patrol).** A recurring wake on an approximate interval (default ~30 min) that reads `HEARTBEAT.md`, sweeps for anything needing attention (inbox, calendar, the chase-list), and acts. Runs in your main session. It can be silent: if nothing's up, reply `HEARTBEAT_OK` and the message drops quietly. Use it for routine, ambient awareness.
+- **Cron (the alarm clock).** Fires at an exact time, runs in a fresh isolated session, and always produces a result. Use it for specific, time-sensitive, heavier jobs that must not be missed and should run independent of your chat: a morning brief, the weekly memory prune, a weekly report.
 
-Rules: **inspect existing schedules before creating one** (don't duplicate). Batch periodic checks into `HEARTBEAT.md` rather than spawning many crons. One consolidated message per wake. The schedule MCP tool's own schema defines the fields, so read it there rather than keeping a copy here.
+Keep the `HEARTBEAT.md` checklist short and batch routine checks into it rather than spawning many crons. Inspect existing schedules before adding one, and send one consolidated message per wake.
 
 ## Tool use
 
