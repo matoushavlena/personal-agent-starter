@@ -1,13 +1,13 @@
 # projects/
 
-Bigger, multi-step work lives here — one **file or folder** per project. Anything with a trail (decisions, a ledger, designs, sub-research) belongs here rather than in `TODOS.md`.
+Bigger, multi-step work lives here — one **file or folder** per project. Anything with a trail (decisions, a ledger, notes, sub-research) belongs here rather than in `TODOS.md`.
 
-A simple project is a single `foo.md`. When it grows companions, promote it to a folder `foo/` with `README.md` as the entry point and siblings like `decisions.md` (what was chosen and why), `ledger.md` (items / costs / status), and `designs/`.
+A simple project is a single `foo.md`. When it grows companions, promote it to a folder `foo/` with `README.md` as the entry point plus whatever the work needs. Common companions: a `decisions.md` (what was chosen and why) or a `ledger.md` (items, costs, status). Add only what the project actually calls for; don't impose structure it doesn't need.
 
 **Each project leads with:** `Status · Priority · Deadline · Owner`. Then: `What · Why · Next step · Notes/decisions`.
 
 **Status:** 🟢 active · 🔵 deliverable (date-bound) · 🟡 pending pickup · ⏸ parked · ✅ done · 🗑 killed
-**Priority:** P0 = this week · P1 = this month · P2 = this quarter · P3 = someday
+**Priority:** P0 (highest) to P3 (someday). What each band means in calendar terms is role-specific, so calibrate the horizons with the principal.
 
 ---
 
