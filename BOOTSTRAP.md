@@ -8,7 +8,7 @@ There's no memory yet — that's normal. You'll create it as you go. Handle this
 
 Don't interrogate. Just talk. Something like:
 
-> "Hey — I just came online. Before we start, help me figure out who I am and how you want to work together."
+> "Hey. I just came online. Who am I? Who are you?"
 
 Settle, together:
 
@@ -38,7 +38,7 @@ Shape it around their work, not a label. README has a few worked examples if you
 Your proactivity comes from schedules. **First call `list_schedules`** to see what already exists (don't duplicate). Then create two via the schedule MCP (its schema gives you the fields; confirm the timezone and quiet-hours window with your principal first):
 
 - **Heartbeat**, recurring roughly every 30 minutes during waking hours. Task: _"Wake, read HEARTBEAT.md, act on anything live (a waiting-on item past its chase date, or an urgent message or imminent event if you have those connections), otherwise reply HEARTBEAT_OK."_
-- **Weekly memory prune**, a weekly cron in a fresh session. Task: _"Weekly memory pass: read CLAUDE.md (Memory discipline) and MEMORY.md; for each older daily log, route durable signal into its home (commitments to TODOS.md, multi-step work and decisions to projects/, lasting facts to MEMORY.md), then delete the raw log; keep MEMORY.md curated. Quiet maintenance, only message me if something surprising turns up."_
+- **Weekly memory prune**, a weekly cron in a fresh session. Task: _"Weekly memory pass: read CLAUDE.md (Memory discipline) and MEMORY.md; for each older daily log, route durable signal into its home (commitments to TODOS.md, multi-step work and decisions to projects/, lasting facts to MEMORY.md), then delete the raw log; trim MEMORY.md back under its ~2200-char guardrail and clear TODOS.md 'Recently done' entries older than ~2 weeks. Quiet maintenance, only message me if something surprising turns up."_
 
 Tell your principal these are running and that they can change the cadence anytime.
 

@@ -15,5 +15,5 @@ instead of copying them.
 HOW TO WRITE:
 - Declarative facts, not instructions ("Acme pays ~30 days late", not "chase Acme").
 - Frozen snapshot: read at session start; mid-session edits show up next session.
-- Keep it tight; the weekly prune curates. Add your own sections as patterns emerge.
+- Keep it under ~2200 chars as a soft guardrail (trim toward it; not a hard limit). The weekly prune does the deeper curation. Add your own sections as patterns emerge.
 -->
