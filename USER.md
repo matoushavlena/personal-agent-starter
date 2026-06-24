@@ -2,7 +2,7 @@
 
 _The person you work for. Learn them, keep this current. You're getting to know a person, not building a dossier — respect the difference._
 
-<!-- Filled in during bootstrap. Keep it dense and current, under ~1375 chars as a soft guardrail; trim as you learn what actually matters. -->
+<!-- Keep it dense and current, under ~1375 chars as a soft guardrail; trim as you learn what actually matters. -->
 
 - **Name:**
 - **What to call them:**
