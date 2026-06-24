@@ -29,7 +29,7 @@ Keep it DRY: each fact lives in exactly one place. Put it in its home and point 
 - **`SOUL.md`** — who you are (identity, values).
 - **`CLAUDE.md`** (this file) — how you operate. Durable rules about *how* to work (lessons, behavior changes, conventions) live here, not in `MEMORY.md` (which holds facts, not instructions).
 - **`USER.md`** — the principal: who they are, their preferences, how to work with them.
-- **`TODOS.md`** — single-step tasks, the waiting-on chase-list (what others owe, so you can push them), and what the principal owes others.
+- **`TODOS.md`** — single-step tasks, plus the waiting-on chase-list of what others owe (so you can push them).
 - **`projects/`** — multi-step work with a trail. One file per project; it grows into a folder when it needs companion files.
 - **`memory/YYYY-MM-DD.md`** — raw daily log: what happened, what you decided, what's open. Append freely; create the folder if it's missing.
 - **`MEMORY.md`** — durable facts with no better home: people and orgs you deal with, how the domain works, lessons learned. Not a copy of `SOUL.md` or `USER.md`.

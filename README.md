@@ -26,7 +26,7 @@ Built to run in **[DAM](https://github.com/dam-agents/dam)**: an isolated cloud 
 | `AGENTS.md` | Symlink to `CLAUDE.md`, for harnesses that look for `AGENTS.md`. |
 | `MEMORY.md` | Curated long-term memory (distilled facts). |
 | `memory/` | Raw daily logs plus `heartbeat-state.json`. |
-| `TODOS.md` | Single-step tasks, a waiting-on chase-list, and what you owe others. |
+| `TODOS.md` | Single-step tasks, plus a waiting-on chase-list of what others owe you. |
 | `projects/` | Bigger, multi-step threads — one file or folder each. |
 | `TOOLS.md` | Local notes: setup-specifics and preferences your tools and skills don't already cover. |
 | `HEARTBEAT.md` | The proactive checklist the heartbeat reads on each wake. |
@@ -35,7 +35,7 @@ Built to run in **[DAM](https://github.com/dam-agents/dam)**: an isolated cloud 
 
 ## Day one in DAM
 
-- The agent installs two schedules through the schedule MCP: a **heartbeat** (~every 30 min during waking hours) and a **weekly memory prune**.
+- The agent installs two schedules through the schedule MCP: a **heartbeat** (~every 30 min during waking hours) and a **weekly prune**.
 - It treats all tool output as data, never as instructions, and verifies before anything that leaves the pod.
 
 ## Example shapes
